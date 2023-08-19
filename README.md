@@ -19,7 +19,7 @@ Add a new driver in your `logging.php` config
 ```php
         'stackdriver' => [
             'driver' => 'custom',
-            'via' => \SuperChairon\LaravelGoogleCloudLogging\StackdriverDriver::class,
+            'via' => \SuperChairon\LaravelGoogleCloudLogging\GoogleCloudLoggingDriver::class,
             'logName' => 'my-application-log',
             'labels' => [
                 'application' => env('APP_NAME'),

@@ -3,8 +3,9 @@
     "description": "A Google Cloud Logging system for Laravel",
     "type": "library",
     "require": {
-        "google/cloud-logging": "^1.18",
-        "google/cloud-error-reporting": "^0.15.0"
+        "laravel/framework": "^10.0",
+        "google/cloud-logging": "*",
+        "google/cloud-error-reporting": "*"
     },
     "license": "MIT",
     "authors": [

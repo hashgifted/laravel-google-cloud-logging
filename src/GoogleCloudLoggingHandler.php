@@ -12,7 +12,7 @@ use Monolog\Logger;
  * @author Martin van Dam <martin@code.nl>
  * @author Wouter Monkhorst <wouter@code.nl>
  */
-class StackdriverHandler extends AbstractProcessingHandler
+class GoogleCloudLoggingHandler extends AbstractProcessingHandler
 {
     /**
      * The Stackdriver logger
